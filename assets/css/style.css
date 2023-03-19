@@ -99,6 +99,8 @@ p {
 .dice{
     width: 120px;
     height: 120px;
-    background-color: aqua;
+    background-color: green;
     z-index: 10;
+    border: 2px solid white;
+    border-radius: 5px;
 }
