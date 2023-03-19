@@ -9,6 +9,15 @@
 body{
     background-color: black;
     font-family: 'Press Start 2P', sans-serif;
+    letter-spacing: 2px;
+}
+
+#title{
+    color:green;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 220%;
+    text-shadow: 2px 2px 2px #1EB045;
 }
 
 #game-area{
@@ -17,7 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 88vh;
 }
 
 .player--area{
@@ -36,7 +45,7 @@ body{
 }
 
 #player1-area{
-    /* margin-left: -18%; */
+    margin-left: 1%;
 
 }
 
@@ -114,4 +123,9 @@ p {
 
 .hidden{
     display: none;
+}
+
+.active-player{
+    box-shadow: 11px 10px 22px -4px rgba(68,242,9,1);
+    transition: 0.5s;
 }
