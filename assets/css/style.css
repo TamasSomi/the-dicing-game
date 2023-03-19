@@ -28,6 +28,7 @@ body{
     font-family: inherit;
     border: 3px solid green;
     font-size: 120%;
+    cursor: pointer;
 }
 
 #title{
@@ -66,22 +67,22 @@ body{
 }
 
 .player-name{
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: 240%;
     color: green;
+    margin-bottom: 10%;
 }
 
 .scr{
     color: white;
-    font-size: 300%;
-    margin-bottom: 10%;
+    font-size: 400%;
 }
 
 .won{
-    font-size: 160%;
+    font-size: 180%;
     color: green;
-    position: absolute;
-    margin-top: 16%;
+    margin-bottom: 5%;
+    
 }
 
 .current-section{
@@ -140,6 +141,10 @@ p {
 
 .hidden{
     display: none;
+}
+
+.hide-visibility{
+    visibility: hidden;
 }
 
 .active-player{
