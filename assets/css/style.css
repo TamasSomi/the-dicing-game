@@ -12,10 +12,26 @@ body{
     letter-spacing: 2px;
 }
 
-#title{
-    color:green;
-    text-align: center;
+#heading{
+    display: flex;
+    align-items: center;
     margin-top: 3%;
+    justify-content: center;
+    gap: 5%;
+}
+
+.btn--how-to-play{
+    width: 15%;
+    height: 5%;
+    padding: 1%;
+    color: green;
+    font-family: inherit;
+    border: 3px solid green;
+    font-size: 120%;
+}
+
+#title{
+    color: green;
     font-size: 220%;
     text-shadow: 2px 2px 2px #1EB045;
 }
@@ -26,7 +42,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 88vh;
+    height: 86vh;
 }
 
 .player--area{
@@ -89,9 +105,10 @@ p {
 
 .btn{
     color: green;
+    border: 3px solid green;
     background-color: aliceblue;
-    width: 120%;
-    height: 8%;
+    width: 11vw;
+    height: 6vh;
     font-size: 110%;
     padding: 5%;
     font-family: inherit;
