@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <div id="modal" class="hide-visibility">
+        <p>Hi! Welcome in The Dicing Game.
+            Player1 will start the game. To start, press "Dice".
+            The goal is to collect 100 points first. After every dice,
+             you will collect your points in the current section. If you dice one,
+              you will lost the 
+             current points and the other player comes. But if you hold your points before you dice one,
+             you will get your points to the total from currents.
+              Who collects 100 total points first, wins the game!
+        </p>
+        <button class="btn-modal" >Close Rules</button>
+    </div>
     <section id="heading">
         <h1 id="title">The Dicing Game 🎲</h1>
         <button class="btn--how-to-play">How To Play</button>
@@ -18,7 +30,7 @@
         <section class="active-player player--area" id="player0-area">
             <h2 class="player-name" id="player0-name">PLAYER 1</h2>
             <h3 class="scr" id="scr--0">0</h3>
-            <p class="won won0" >🎉 WINNER 🎉</p>
+            <p class="won won0 hide-visibility" >🎉 WINNER 🎉</p>
             <div class="current-section">
                 <h3>CURRENT</h3>
                 <p class="current-points" id="current--0">0</p>

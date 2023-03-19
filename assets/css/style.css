@@ -139,6 +139,39 @@ p {
     border-radius: 5px;
 }
 
+#modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    color: green;
+    width: 100vw;
+    height: 99vh;
+    z-index: 100;
+    font-size: 180%;
+    position: absolute;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border: 3px solid green;
+    top: 0;
+    gap: 10%;
+}
+
+#modal p{
+    padding:0% 2% 0% 2%;
+}
+
+.btn-modal{
+    width: 10%;
+    height: 6%;
+    font-family: inherit;
+    color: green;
+    border: 3px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .hidden{
     display: none;
 }
