@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.player--area{
+    width: 45vw;
+    height: 70vh;
+    border: 3px solid green;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#player0-area{
+    margin-right: 0.05%;
+}
+
+#player1-area{
+    margin-left:0.05%;
+
+}
+
+.player-name{
+    margin-top: 15%;
+    font-size: 240%;
+    color: green;
+}
+
+.current-section{
+    margin-bottom: 10%;
+    font-size: 160%;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+p {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.btn{
+    z-index: 10;
+    height: 5%;
+    position: absolute;
+    display: none;
+}
+
+.dice{
+    display: none;
+}
