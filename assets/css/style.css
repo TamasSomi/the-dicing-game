@@ -52,6 +52,13 @@ body{
     margin-bottom: 10%;
 }
 
+.won{
+    font-size: 160%;
+    color: green;
+    position: absolute;
+    margin-top: 16%;
+}
+
 .current-section{
     margin-bottom: 10%;
     font-size: 160%;
@@ -103,4 +110,8 @@ p {
     z-index: 10;
     border: 2px solid white;
     border-radius: 5px;
+}
+
+.hidden{
+    display: none;
 }
