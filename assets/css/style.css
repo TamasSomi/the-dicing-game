@@ -13,9 +13,10 @@ body{
 }
 
 #heading{
+    width: 96vw;
     display: flex;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 2%;
     justify-content: center;
     gap: 5%;
 }
@@ -33,7 +34,7 @@ body{
 
 #title{
     color: green;
-    font-size: 220%;
+    font-size: 200%;
     text-shadow: 2px 2px 2px #1EB045;
 }
 
@@ -47,8 +48,8 @@ body{
 }
 
 .player--area{
-    width: 45vw;
-    height: 70vh;
+    width: 40vw;
+    height: 75vh;
     border: 3px solid green;
     border-radius: 5px;
     display: flex;
@@ -70,7 +71,7 @@ body{
     margin-top: 10%;
     font-size: 240%;
     color: green;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
 
 .scr{
@@ -81,7 +82,7 @@ body{
 .won{
     font-size: 180%;
     color: green;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     
 }
 
@@ -110,14 +111,10 @@ p {
     background-color: aliceblue;
     width: 11vw;
     height: 6vh;
-    font-size: 110%;
+    font-size: 100%;
     padding: 5%;
     font-family: inherit;
     cursor: pointer;
-}
-
-.btn--new-game{
-
 }
 
 #navigation{
@@ -146,16 +143,15 @@ p {
     align-items: center;
     background-color: black;
     color: green;
-    width: 100vw;
-    height: 99vh;
+    width: 96vw;
+    height: 95vh;
     z-index: 100;
     font-size: 180%;
     position: absolute;
     letter-spacing: 3px;
     line-height: 1.5;
-    border: 3px solid green;
     top: 0;
-    gap: 10%;
+    gap: 5%;
 }
 
 #modal p{
