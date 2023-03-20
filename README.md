@@ -11,3 +11,16 @@ Player1 will start the game. To start, press "Dice". The goal is to collect 100 
 * As a visiting user i expect the game to be fully responsive so i can play on any device.
 * As a visiting user i would like to play a game that possible to play with a nother person.
 * As a visiting user i would like to read the rules/how to play.
+
+## Features ##
+
+* The site is responsive and user can play on any device.
+* There is a how to play section so that anyone can see the rules.
+* User can start a new game any time.
+
+## Future features and improvements ##
+
+* User could set the maximum points to achive to win the game.
+* One player mode, against the computer.
+* Save a highscore based on, within how many rounds the player winns or maybe a timer.
+ 
