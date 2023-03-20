@@ -384,11 +384,110 @@ p {
     }
     
     #modal{
-        font-size: 120%;
+        font-size: 100%;
     }
        
     .btn-modal{
         width: 15%;
         height: 10%;
     }
+}
+
+@media screen and (max-height: 400px){
+    
+    .btn--how-to-play{
+        font-size: 60%;
+    }
+    
+    #title{
+        font-size: 120%;
+    }
+    
+    #game-area{
+        height: 70vh;
+    }
+
+    .player-name{
+        margin-top: 6%;
+        font-size: 125%;
+        margin-bottom: 4%;
+    }
+    
+    .scr{
+        font-size: 220%;
+    }
+    
+    .won{
+        font-size: 100%;
+        margin-bottom: 1%;
+        
+    }
+    
+    .current-section{
+        margin-bottom: 5%;
+        font-size: 95%;
+        padding: 4%;
+    }
+
+    .current{
+        font-size: 90%;
+        margin-bottom: 10%;
+    }
+    
+    .current-points{
+        font-size: 95%;
+    }
+    
+    .btn{
+        width: 13vw;
+        height: 10vh;
+        font-size: 60%;
+        padding: 2%;
+    }
+
+    .dice{
+        width: 90px;
+        height: 90px;
+    }
+    
+    #modal{
+        font-size: 80%;
+        height: 100vh;
+    }
+       
+    .btn-modal{
+        width: 15%;
+        height: 10%;
+    }
+}
+
+@media screen and (max-height: 300px){
+    .player-name{
+        font-size: 105%;
+    }
+    
+    .scr{
+        font-size: 180%;
+    }
+    
+    .won{
+        font-size: 80%; 
+    }
+    
+    .current-section{
+        font-size: 75%;
+    }
+    
+    .btn{
+        width: 13vw;
+        height: 10vh;
+        font-size: 45%;
+        padding: 1%;
+    }
+
+    .dice{
+        width: 70px;
+        height: 70px;
+    }
+
 }
