@@ -32,6 +32,12 @@ body{
     cursor: pointer;
 }
 
+.btn--how-to-play:hover{
+    color: aliceblue;
+    background-color: green;
+    border: 3px solid aliceblue;
+}
+
 #title{
     color: green;
     font-size: 200%;
@@ -108,12 +114,18 @@ p {
     color: green;
     border: 3px solid green;
     background-color: aliceblue;
-    width: 11vw;
+    width: 12vw;
     height: 6vh;
     font-size: 100%;
-    padding: 5%;
+    padding: 3%;
     font-family: inherit;
     cursor: pointer;
+}
+
+.btn:hover{
+    color: aliceblue;
+    background-color: green;
+    border: 3px solid aliceblue;
 }
 
 #navigation{
@@ -165,6 +177,12 @@ p {
     border: 3px solid green;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.btn-modal:hover{
+    color: aliceblue;
+    background-color: green;
+    border: 3px solid aliceblue;
 }
 
 .hidden{
