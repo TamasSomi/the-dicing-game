@@ -64,7 +64,6 @@ body{
 
 #player1-area{
     margin-left: 1%;
-
 }
 
 .player-name{
@@ -179,4 +178,90 @@ p {
 .active-player{
     box-shadow: 11px 10px 22px -4px rgba(68,242,9,1);
     transition: 0.5s;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1120px) {
+    #heading{
+        width: 80vw;
+        margin-bottom: 2%;
+        gap: 2.5%;
+        margin-left: 5%;
+    }
+    
+    .btn--how-to-play{
+        font-size: 60%;
+    }
+    
+    #title{
+        font-size: 100%;
+    }
+
+    #game-area{
+        flex-direction: column;
+        height: 85vh;
+        gap: 2%;
+    }
+
+    .player--area{
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #player0-area{
+        margin-right: 0;
+    }
+    
+    #player1-area{
+        margin-left: 0%;
+    }
+
+    #navigation{
+        flex-direction: row;
+        width: 50vw;
+        gap: 7%;
+    }
+
+    .player-name{
+        margin-top: 18%;
+        font-size: 120%;
+        margin-bottom: 1%;
+    }
+    
+    .scr{
+        font-size: 200%;
+    }
+    
+    .won{
+        font-size: 90%;
+        margin-bottom: 0%;
+        margin-top: 1%;
+    }
+
+    .current-section{
+        margin-bottom: 15%;
+        font-size: 80%;
+        padding: 2.5%;
+    }
+    
+    .current-points{
+        font-size: 100%;
+    }
+    
+    p {
+        margin-top: 5%;
+    }
+    
+    .btn{
+        width: 12vw;
+        height: 6vh;
+        font-size: 60%;
+        padding: 1%;
+    }
+
+    .dice{
+        width: 60px;
+        height: 60px;
+    }
 }
