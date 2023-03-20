@@ -258,6 +258,7 @@ p {
         height: 6vh;
         font-size: 60%;
         padding: 1%;
+        line-height: 1.2;
     }
 
     .dice{
@@ -277,7 +278,117 @@ p {
     .btn-modal{
         width: 30%;
         height: 9%;
+        font-size: 80%;   
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .btn--how-to-play{
+        font-size: 40%;
+    }
+    
+    #title{
+        font-size: 90%;
+    }
+
+    .btn{
+        width: 20vw;
+        height: 6vh;
+        font-size: 40%;
+        padding: 1%;
+    }
+
+    #navigation{
+        width: 60vw;
+        gap: 4%;
+    }
+
+    .dice{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #heading{
+        display: flex;
+        margin-top: 2%;
+        gap: 3%;
+    }
+    
+    .btn--how-to-play{
+        width: 15%;
+        height: 5%;
         font-size: 80%;
-      
+    }
+    
+    #title{
+        font-size: 140%;
+    }
+    
+    #game-area{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .player--area{
+        width: 40vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .player-name{
+        margin-top: 10%;
+        font-size: 160%;
+        margin-bottom: 6%;
+    }
+    
+    .scr{
+        font-size: 270%;
+    }
+    
+    .won{
+        font-size: 120%;
+        margin-bottom: 2%;
+        
+    }
+    
+    .current-section{
+        margin-bottom: 8%;
+        font-size: 105%;
+        padding: 5%;
+    }
+    
+    .current-points{
+        font-size: 105%;
+    }
+    
+    .btn{
+        width: 15vw;
+        height: 8vh;
+        font-size: 77%;
+        padding: 3%;
+    }
+    
+    #navigation{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    
+    .dice{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #modal{
+        font-size: 120%;
+    }
+       
+    .btn-modal{
+        width: 15%;
+        height: 10%;
     }
 }
