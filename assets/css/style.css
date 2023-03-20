@@ -142,7 +142,7 @@ p {
     align-items: center;
     background-color: black;
     color: green;
-    width: 96vw;
+    width: 99vw;
     height: 95vh;
     z-index: 100;
     font-size: 180%;
@@ -181,8 +181,57 @@ p {
 }
 
 /* Media queries */
+@media screen and (max-width: 1150px){
 
-@media screen and (max-width: 1120px) {
+    .btn--how-to-play{
+        font-size: 100%;
+    }
+    
+    #title{
+        font-size: 180%;
+    }
+    
+    .player--area{
+        width: 46vw;
+    }
+
+    .player-name{
+        font-size: 200%;
+    }
+    
+    .scr{
+        font-size: 380%;
+    }
+    
+    .won{
+        font-size: 160%;
+    }
+    
+    .current-section{
+        font-size: 150%;
+    }
+    
+    .current-points{
+        font-size: 150%;
+    }
+    
+    .btn{
+        width: 12vw;
+        font-size: 90%;
+        padding: 3%;
+    }
+    
+    .dice{
+        width: 110px;
+        height: 110px;
+    }
+
+    #modal{
+        font-size: 150%;
+    }
+} 
+
+@media screen and (max-width: 920px) {
     #heading{
         width: 80vw;
         margin-bottom: 2%;
@@ -282,14 +331,14 @@ p {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     
     .btn--how-to-play{
         font-size: 40%;
     }
     
     #title{
-        font-size: 90%;
+        font-size: 70%;
     }
 
     .btn{
@@ -393,7 +442,7 @@ p {
     }
 }
 
-@media screen and (max-height: 400px){
+@media screen and (max-height: 420px){
     
     .btn--how-to-play{
         font-size: 60%;
