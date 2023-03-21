@@ -10,3 +10,14 @@ let howToPlay = document.querySelector('.btn--how-to-play');
 let newGame = document.querySelector('.btn--new-game');
 let rollDice = document.querySelector('.btn--roll-dice');
 let hold = document.querySelector('.btn--hold');
+let closeRules = document.querySelector('.btn-modal');
+
+// open rules with how to play button
+howToPlay.addEventListener('click', function(){
+    document.querySelector('#modal').classList.toggle('hide-visibility');
+});
+
+closeRules.addEventListener('click', function(){
+    document.querySelector('#modal').classList.toggle('hide-visibility');
+});
+
