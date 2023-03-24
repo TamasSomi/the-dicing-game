@@ -8,9 +8,10 @@ let elCurrent1 = document.querySelector('#current--0');
 let elCurrent2 = document.querySelector('#current--1');
 let howToPlay = document.querySelector('.btn--how-to-play');
 let newGame = document.querySelector('.btn--new-game');
-let rollDice = document.querySelector('.btn--roll-dice');
+let rollDice = document.querySelector('#btn--roll-dice');
 let hold = document.querySelector('.btn--hold');
 let closeRules = document.querySelector('.btn-modal');
+let diceImg = document.querySelector('.dice');
 
 let current, points, playing, activePlayer;
 
@@ -39,9 +40,17 @@ function setStarter() {
     document.querySelector('.won1').classList.add('hide-visibility');
 }
 
+// generate random number for dice and display dice accordingly
+function rollTheDice () {
+    if (playing) {
+        let dice = Math.floor(Math.random() * 6) + 1;
+        document.querySelector('.dice').src=`/assets/images/dice-${dice}.png`;
+        document.querySelector('.dice').classList.remove('hide-visibility');
+    }  
+}
+
 setStarter();
 
-// generate random number for dice
 
-let dice = Math.floor(Math.random() * 6) + 1;
-console.log(dice);
+
+rollDice.addEventListener('click', rollTheDice);
