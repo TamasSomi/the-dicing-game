@@ -44,8 +44,14 @@ function setStarter() {
 function rollTheDice () {
     if (playing) {
         let dice = Math.floor(Math.random() * 6) + 1;
-        document.querySelector('.dice').src=`/assets/images/dice-${dice}.png`;
-        document.querySelector('.dice').classList.remove('hide-visibility');
+        diceImg.src=`/assets/images/dice-${dice}.png`;
+        diceImg.classList.remove('hide-visibility');
+        if (dice !== 1) {
+            current += dice;
+            document.getElementById(`current--${activePlayer}`).textContent = current;
+        } else {
+            switchPlayer();
+        }
     }  
 }
 
