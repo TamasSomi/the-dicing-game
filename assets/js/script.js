@@ -80,6 +80,8 @@ hold.addEventListener('click', function() {
         }
 }})
 
+newGame.addEventListener('click', setStarter);
+
 setStarter();
 
 rollDice.addEventListener('click', rollTheDice);
