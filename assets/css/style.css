@@ -195,7 +195,7 @@ p {
 
 .active-player{
     box-shadow: 11px 10px 22px -4px rgba(68,242,9,1);
-    transition: 0.5s;
+    transition: 2s;
 }
 
 /* Media queries */

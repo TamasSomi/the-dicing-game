@@ -2,6 +2,8 @@
 
 let elPlayer1 = document.querySelector('#player0-name');
 let elPlayer2 = document.querySelector('#player1-name');
+let player1Area = document.querySelector('#player0-area');
+let player2Area = document.querySelector('#player1-area');
 let elScore1 = document.querySelector('#scr--0');
 let elScore2 = document.querySelector('#scr--1');
 let elCurrent1 = document.querySelector('#current--0');
@@ -35,9 +37,12 @@ function setStarter() {
     elCurrent2.textContent = 0;
     elScore1.textContent = 0;
     elScore2.textContent = 0;
+    player1Area.classList.add("active-player");
+    player2Area.classList.remove("active-player");
     document.querySelector('.dice').classList.add('hide-visibility');
     document.querySelector('.won0').classList.add('hide-visibility');
     document.querySelector('.won1').classList.add('hide-visibility');
+
 }
 
 // generate random number for dice and display dice accordingly
@@ -55,8 +60,16 @@ function rollTheDice () {
     }  
 }
 
+function switchPlayer() {
+    current = 0;
+    document.getElementById(`current--${activePlayer}`).textContent = 0;
+    player1Area.classList.toggle("active-player");
+    player2Area.classList.toggle("active-player");
+    activePlayer = activePlayer === 0 ? 1 : 0;
+
+
+}
+
 setStarter();
-
-
 
 rollDice.addEventListener('click', rollTheDice);
