@@ -48,7 +48,7 @@ function setStarter() {
 function rollTheDice () {
     if (playing) {
         let dice = Math.floor(Math.random() * 6) + 1;
-        diceImg.src=`/assets/images/dice-${dice}.png`;
+        diceImg.src=`assets/images/dice-${dice}.png`;
         diceImg.classList.remove('hide-visibility');
         if (dice !== 1) {
             current += dice;
