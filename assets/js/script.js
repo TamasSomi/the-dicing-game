@@ -83,9 +83,9 @@ hold.addEventListener('click', function() {
 }})
 
 function askForUserName1 () {
-    let name1 = prompt('Please enter a username for Player 1: (Between 3-10 characters)');
-    if (name1.length > 10 || name1.length < 3) {
-        alert(`The username, "${name1}" is ${name1.length} char. long. A valid username is 3-10 characters!`);
+    let name1 = prompt('Please enter a username for Player 1: (Between 3-8 characters)');
+    if (name1.length > 8 || name1.length < 3) {
+        alert(`The username, "${name1}" is ${name1.length} char. long. A valid username is 3-8 characters!`);
         askForUserName1();
     } else {
         player1Name.textContent = name1;
@@ -93,9 +93,9 @@ function askForUserName1 () {
 }
 
 function askForUserName2 () {
-    let name2 = prompt('Please enter a username for Player 2: (Between 3-10 characters)');
-    if (name2.length > 10 || name2.length < 3) {
-        alert(`The username, "${name2}" is ${name2.length} char. long. A valid username is 3-10 characters!`);
+    let name2 = prompt('Please enter a username for Player 2: (Between 3-8 characters)');
+    if (name2.length > 8 || name2.length < 3) {
+        alert(`The username, "${name2}" is ${name2.length} char. long. A valid username is 3-8 characters!`);
         askForUserName2();
     } else {
         player2Name.textContent = name2;
