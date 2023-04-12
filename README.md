@@ -1,5 +1,8 @@
 # The Dicing Game 🎲 #
 
+The live link can be found here: 
+[Visit Webpage](https://tamassomi.github.io/the-dicing-game/)
+
 This game is a dicing game using vanilla javaScript deployed for learning purposes.
 
 Player1 will start the game. To start, press "Dice". The goal is to collect 100 points first. After every dice, you will collect your points in the current section. If you dice one, you will lose the current points and the other player comes. But if you hold your points before you dice one, you will get your points to the total from currents. Who collects 100 total points first, wins the game!

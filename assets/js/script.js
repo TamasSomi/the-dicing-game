@@ -1,7 +1,5 @@
-'use strict'
+'use strict';
 
-let elPlayer1 = document.querySelector('#player0-name');
-let elPlayer2 = document.querySelector('#player1-name');
 let player1Area = document.querySelector('#player0-area');
 let player2Area = document.querySelector('#player1-area');
 let elScore1 = document.querySelector('#scr--0');
@@ -80,7 +78,7 @@ hold.addEventListener('click', function() {
             document.getElementById(`current--${activePlayer}`).textContent = 0;
             playing = false;
         }
-}})
+}});
 
 function askForUserName1 () {
     let name1 = prompt('Please enter a username for Player 1: (Between 3-8 characters)');
