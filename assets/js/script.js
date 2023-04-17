@@ -126,6 +126,6 @@ player2Name.addEventListener('click', askForUserName2);
 
 newGame.addEventListener('click', setStarter);
 
-setStarter();
+document.addEventListener("DOMContentLoaded", setStarter());
 
 rollDice.addEventListener('click', rollTheDice);
