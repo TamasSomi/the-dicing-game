@@ -32,17 +32,17 @@ Player1 will start the game. To start, press "Dice". The goal is to collect 100 
 
 * I created a chart for the game logic to make it easier to see, what functions will i need for all the functionalities.
 
-![javaScript logic chartsheet](assets/docs/dicing-game-chart.png "js chartsheet")
+![javaScript logic chartsheet](docs/dicing-game-chart.png "js chartsheet")
 
 
 * Wireframe for desktop and tablet screens:
 
-![dektop and tablet wireframe](assets/docs/dicing-game-desktop.png "dektop and tablet wireframe")
+![dektop and tablet wireframe](docs/dicing-game-desktop.png "dektop and tablet wireframe")
 
 
 * Wireframe fore mobile screens:
 
-![mobile wireframe](assets/docs/dicing-game-mobile.png "mobile wireframe")
+![mobile wireframe](docs/dicing-game-mobile.png "mobile wireframe")
 
 
 
