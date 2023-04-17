@@ -178,9 +178,32 @@ p {
     border: 3px solid green;
     border-radius: 5px;
     cursor: pointer;
+    padding: 5px;
 }
 
-.btn-modal:hover{
+.modal-content{
+    padding: 20px;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+input {
+    color: black;
+    font-size: 90%;
+}
+
+.btn-submit{
+    min-width: 10%;
+    padding: 1.5%;
+    font-size: medium;
+    border: 3px solid green;
+    font-family: inherit;
+    color: green;
+    margin-top: 5%;
+}
+
+.btn-modal:hover, .btn-submit:hover{
     color: aliceblue;
     background-color: green;
     border: 3px solid aliceblue;
