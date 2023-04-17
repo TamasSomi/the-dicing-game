@@ -23,12 +23,19 @@
         </p>
         <button class="btn-modal" >Close Rules</button>
     </div>
+    <div id="change-name-modal" class="modal hide-visibility">
+        <div class="modal-content">
+            <form>
+                <label for="username">Enter new username:</label>
+                <input type="text" id="username" name="username" minlength="3" maxlength="8" required>
+                <button type="submit">Save</button>
+            </form>
+        </div>
+    </div>
     <section id="heading">
         <h1 id="title">The Dicing Game 🎲</h1>
         <button class="btn--how-to-play">How To Play</button>
     </section>
-    
-
     <div id="game-area">
         <section class="active-player player--area" id="player0-area">
             <h2 class="player-name" id="player0-name">PLAYER 1</h2>
