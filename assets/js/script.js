@@ -19,12 +19,12 @@ let current, points, playing, activePlayer;
 
 // open rules with how to play button
 howToPlay.addEventListener('click', function(){
-    document.querySelector('#modal').classList.toggle('hide-visibility');
+    document.querySelector('.modal').classList.toggle('hide-visibility');
 });
 
 // Close rules
 closeRules.addEventListener('click', function(){
-    document.querySelector('#modal').classList.toggle('hide-visibility');
+    document.querySelector('.modal').classList.toggle('hide-visibility');
 });
 
 // set starter values
@@ -80,25 +80,45 @@ hold.addEventListener('click', function() {
         }
 }});
 
+// function askForUserName1 () {
+//     let name1 = prompt('Please enter a username for Player 1: (Between 3-8 characters)');
+//     if (name1.length > 8 || name1.length < 3) {
+//         alert(`The username, "${name1}" is ${name1.length} char. long. A valid username is 3-8 characters!`);
+//         askForUserName1();
+//     } else {
+//         player1Name.textContent = name1;
+//     }
+// }
+
 function askForUserName1 () {
-    let name1 = prompt('Please enter a username for Player 1: (Between 3-8 characters)');
-    if (name1.length > 8 || name1.length < 3) {
-        alert(`The username, "${name1}" is ${name1.length} char. long. A valid username is 3-8 characters!`);
-        askForUserName1();
-    } else {
+    document.querySelector('#change-name1-modal').classList.remove("hide-visibility");
+    document.querySelector('#change-name1-modal form').addEventListener('submit', function(event){
+        event.preventDefault();
+        let name1 = document.querySelector('#username1').value;
         player1Name.textContent = name1;
-    }
-}
+        document.querySelector('#change-name1-modal').classList.add("hide-visibility");
+    })
+};
 
 function askForUserName2 () {
-    let name2 = prompt('Please enter a username for Player 2: (Between 3-8 characters)');
-    if (name2.length > 8 || name2.length < 3) {
-        alert(`The username, "${name2}" is ${name2.length} char. long. A valid username is 3-8 characters!`);
-        askForUserName2();
-    } else {
+    document.querySelector('#change-name2-modal').classList.remove("hide-visibility");
+    document.querySelector('#change-name2-modal form').addEventListener('submit', function(event){
+        event.preventDefault();
+        let name2 = document.querySelector('#username2').value;
         player2Name.textContent = name2;
-    }
-}
+        document.querySelector('#change-name2-modal').classList.add("hide-visibility");
+    })
+};
+
+// function askForUserName2 () {
+//     let name2 = prompt('Please enter a username for Player 2: (Between 3-8 characters)');
+//     if (name2.length > 8 || name2.length < 3) {
+//         alert(`The username, "${name2}" is ${name2.length} char. long. A valid username is 3-8 characters!`);
+//         askForUserName2();
+//     } else {
+//         player2Name.textContent = name2;
+//     }
+// }
 
 player1Name.addEventListener('click', askForUserName1);
 

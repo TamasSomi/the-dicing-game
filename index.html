@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div id="modal" class="hide-visibility">
+    <div class="modal hide-visibility">
         <p>Hi! Welcome in The Dicing Game.
             Player1 will start the game. To start, press "Dice".
             The goal is to collect 100 points first. After every dice,
@@ -23,11 +23,20 @@
         </p>
         <button class="btn-modal" >Close Rules</button>
     </div>
-    <div id="change-name-modal" class="modal hide-visibility">
+    <div id="change-name1-modal" class="modal hide-visibility">
         <div class="modal-content">
-            <form>
-                <label for="username">Enter new username:</label>
-                <input type="text" id="username" name="username" minlength="3" maxlength="8" required>
+            <form action="#">
+                <label for="username1">Enter new username:</label>
+                <input type="text" id="username1" name="username1" minlength="3" maxlength="8" required>
+                <button type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+    <div id="change-name2-modal" class="modal hide-visibility">
+        <div class="modal-content">
+            <form action="#">
+                <label for="username2">Enter new username:</label>
+                <input type="text" id="username2" name="username2" minlength="3" maxlength="8" required>
                 <button type="submit">Save</button>
             </form>
         </div>
