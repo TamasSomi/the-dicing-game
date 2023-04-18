@@ -1,6 +1,7 @@
 # The Dicing Game 🎲 #
 
 ![responsive screenshot](docs/dicing-game-responsive.png "responsive screenshot")
+
 The live link can be found here: 
 [Visit Webpage](https://tamassomi.github.io/the-dicing-game/)
 
@@ -21,14 +22,22 @@ Player1 will start the game. To start, press "Dice". The goal is to collect 100 
 * The site is responsive and user can play on any device.
 
 * There is a how to play section so that anyone can see the rules. Which can be open easily by clicking on the "How To Play" button.
+
 ![How to play screenshot](docs/how-to-play-screenshot.png "How to play screenshot")
 
 * User can start a new game any time by clicking on the New Game button.
+
 ![New game button screenshot](docs/new-game-button-screenshot.png "New game button screenshot")
 
 * User can change the player name by clicking on the name that needs to be changed.
 * The game accepts between 3-8 charackters, if not valid name is inserted than it is indicated.
+
 ![Non valid username screenshot](docs/non-valid-player-name-screenshot.png "Non valid username screenshot")
+
+* If one player reaches 100 points, the winner is displayed. The players aren't able to roll the dice, or hold points anymore, untill new game started by clicking the new game button. 
+
+![Winner screenshot](docs/winner-screenshot.png "Winner screenshot")
+
 
 
 ## Future features and improvements ##
