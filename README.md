@@ -63,7 +63,44 @@ Player1 will start the game. To start, press "Dice". The goal is to collect 100 
 ![mobile wireframe](docs/dicing-game-mobile.png "mobile wireframe")
 
 
+## Testing ##
 
+* When i first open the page, all the scores are set to 0.
+* The current player displayed by the green shadow for the players side.
+
+![Initial page screenshot](docs/testing-initial-page.png "Initial page screenshot")
+
+* By clicking on Player 1 or Player 2 the modal pops up for taking the new player name.
+
+![Changing name modal screenshot](docs/testing-change-payer-name.png "Changing name modal screenshot")
+
+* When i insert a new player name, it's displayed correctly.
+
+![New user name displayed screenshot](docs/testing-after-name-changed.png "New user name displayed screenshot")
+
+* By hovering over the How To Play button the transition happens as expected. (The colors are changing)(The cursor was removed by the computer, when the screenshot was made.)
+
+![How to play button, when hovered over](docs/button-hover-screenshot.png "How to play button, when hovered over")
+
+* If i click the button the modal opens, i can read the description and by clicking on the close rules button, the modal closes.
+
+![How to play modal screenshot](docs/testing-how-to-play-screenshot.png "How to play modal screenshot")
+
+* When i click on the roll dice button i get the dice image. The correct points added to the current section.
+
+![After dice rolled first time screenshot](docs/testing-dice-rolled.png "After dice rolled first time screenshot")
+
+* When i click on hold, my current points get to the overall points. The currents points set back to 0 and the player change indicated by the green shadow. 
+
+![After points were hold screenshot](docs/testing-after-hold.png "After points were hold screenshot")
+
+* After a few roll, i rolled one. The current points were lost and the current player was swapped as expected.
+
+* When i first reach 100 overall points, the winner is displayed and the roll dice and hold buttons don't work anymore as expected.
+
+![After winning scrennshot](docs/testing-winner-displayed.png "After winning scrennshot")
+
+* I click on the new game button and the game reset to the initial state as expected.
 
 
  
