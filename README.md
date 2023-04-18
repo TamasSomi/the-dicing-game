@@ -19,9 +19,17 @@ Player1 will start the game. To start, press "Dice". The goal is to collect 100 
 ## Features ##
 
 * The site is responsive and user can play on any device.
-* There is a how to play section so that anyone can see the rules.
-* User can start a new game any time.
-* User can change the player name.
+
+* There is a how to play section so that anyone can see the rules. Which can be open easily by clicking on the "How To Play" button.
+![How to play screenshot](docs/how-to-play-screenshot.png "How to play screenshot")
+
+* User can start a new game any time by clicking on the New Game button.
+![New game button screenshot](docs/new-game-button-screenshot.png "New game button screenshot")
+
+* User can change the player name by clicking on the name that needs to be changed.
+* The game accepts between 3-8 charackters, if not valid name is inserted than it is indicated.
+![Non valid username screenshot](docs/non-valid-player-name-screenshot.png "Non valid username screenshot")
+
 
 ## Future features and improvements ##
 
