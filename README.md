@@ -1,5 +1,6 @@
 # The Dicing Game 🎲 #
 
+![responsive screenshot](docs/dicing-game-responsive.png "responsive screenshot")
 The live link can be found here: 
 [Visit Webpage](https://tamassomi.github.io/the-dicing-game/)
 
