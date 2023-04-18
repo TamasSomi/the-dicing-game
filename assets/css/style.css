@@ -133,8 +133,9 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    height: 70vh;
+    justify-content: space-between;
+    column-gap: 10px;
+    min-height: 60vh;
     position: absolute;
 }
 
@@ -157,7 +158,7 @@ p {
     width: 100%;
     height: 100%;
     z-index: 100;
-    font-size: 160%;
+    font-size: 80%;
     position: absolute;
     letter-spacing: 3px;
     line-height: 1.5;
@@ -275,23 +276,23 @@ input {
 
 @media screen and (max-width: 920px) {
     #heading{
-        width: 80vw;
-        margin-bottom: 2%;
+        width: 85vw;
+        margin-bottom: 0.2%;
         gap: 2.5%;
         margin-left: 5%;
     }
     
     .btn--how-to-play{
-        font-size: 60%;
+        font-size: 70%;
     }
     
     #title{
-        font-size: 100%;
+        font-size: 120%;
     }
 
     #game-area{
         flex-direction: column;
-        height: 85vh;
+        height: 92vh;
         gap: 2%;
     }
 
@@ -310,18 +311,19 @@ input {
 
     #navigation{
         flex-direction: row;
-        width: 50vw;
+        width: 60vw;
         gap: 7%;
+        min-height: fit-content;
     }
 
     .player-name{
         margin-top: 18%;
-        font-size: 120%;
+        font-size: 170%;
         margin-bottom: 1%;
     }
     
     .scr{
-        font-size: 200%;
+        font-size: 220%;
     }
     
     .won{
@@ -332,29 +334,30 @@ input {
 
     .current-section{
         margin-bottom: 15%;
-        font-size: 80%;
+        font-size: 110%;
         padding: 2.5%;
     }
     
     .current-points{
-        font-size: 100%;
+        font-size: 130%;
     }
     
     p {
         margin-top: 5%;
+        font-size: 200%;
     }
     
     .btn{
         width: 12vw;
         height: 6vh;
-        font-size: 60%;
+        font-size: 80%;
         padding: 1%;
         line-height: 1.2;
     }
 
     .dice{
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
     }
 
     #modal{
@@ -367,8 +370,53 @@ input {
     .btn-modal{
         width: 30%;
         height: 9%;
-        font-size: 80%;   
+        font-size: 120%;   
     }
+}
+
+@media screen and (max-width: 700px) {
+
+    #title {
+        font-size: 100%;
+    }
+    p {
+        font-size: 120%;
+    }
+
+    .btn--how-to-play{
+        font-size: 60%;
+    }
+
+    .player-name{
+        font-size: 150%;
+    }
+
+    .scr{
+        font-size: 190%;
+    }
+
+    .current-section{
+        font-size: 90%;
+    }
+    
+    .current-points{
+        font-size: 110%;
+    }
+
+    .btn{
+        font-size: 60%;
+    }
+
+    .dice{
+        width: 60px;
+        height: 60px;
+    }
+
+    .player--area{
+        width: 60vw;
+        height: 40vh;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
@@ -391,11 +439,20 @@ input {
     #navigation{
         width: 60vw;
         gap: 4%;
+        min-height: fit-content;
     }
 
     .dice{
         width: 50px;
         height: 50px;
+    }
+
+    p {
+        font-size: 100%;
+    }
+
+    .player--area {
+        width: 85vw;
     }
 }
 
@@ -409,16 +466,19 @@ input {
     .btn--how-to-play{
         width: 15%;
         height: 5%;
-        font-size: 80%;
+        font-size: 60%;
+        margin-bottom: 2%;
     }
     
     #title{
-        font-size: 140%;
+        font-size: 110%;
+        margin-bottom: 5%;
     }
     
     #game-area{
         display: flex;
         flex-direction: row;
+        height: 88vh;
     }
     
     .player--area{
@@ -430,7 +490,7 @@ input {
 
     .player-name{
         margin-top: 10%;
-        font-size: 160%;
+        font-size: 140%;
         margin-bottom: 6%;
     }
     
@@ -455,16 +515,17 @@ input {
     }
     
     .btn{
-        width: 15vw;
         height: 8vh;
-        font-size: 77%;
-        padding: 3%;
+        font-size: 65%;
+        padding: 1.5%;
     }
     
     #navigation{
         display: flex;
         flex-direction: column;
         position: absolute;
+        min-height: 70vh;
+        max-width: fit-content;
     }
     
     .dice{
@@ -479,6 +540,11 @@ input {
     .btn-modal{
         width: 15%;
         height: 10%;
+        font-size: 80%;
+    }
+
+    p{
+        font-size: 90%;
     }
 }
 
@@ -546,6 +612,11 @@ input {
     .btn-modal{
         width: 15%;
         height: 10%;
+    }
+
+    #navigation{
+        max-width: fit-content;
+        min-height: 70vh;
     }
 }
 
@@ -632,5 +703,13 @@ input {
     .dice{
         width: 35px;
         height: 35px;
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+    .btn-modal {
+        font-size: 80%;
     }
 }
