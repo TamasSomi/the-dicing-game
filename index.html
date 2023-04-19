@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- How to play modal -->
     <div class="modal hide-visibility">
         <p>Hi! Welcome in The Dicing Game.
             Player1 will start the game. To start, press "Dice".
@@ -24,6 +25,7 @@
         </p>
         <button class="btn-modal" >Close Rules</button>
     </div>
+    <!-- Modal for change player 1 name -->
     <div id="change-name1-modal" class="modal-names modal hide-visibility">
         <div class="modal-content">
             <form action="#">
@@ -33,6 +35,7 @@
             </form>
         </div>
     </div>
+    <!-- Modal for change player 2 name -->
     <div id="change-name2-modal" class="modal modal-names hide-visibility">
         <div class="modal-content">
             <form action="#">
@@ -47,6 +50,7 @@
         <button class="btn--how-to-play">How To Play</button>
     </section>
     <div id="game-area">
+        <!-- Player 1 sie -->
         <section class="active-player player--area" id="player0-area">
             <h2 class="player-name" id="player0-name">PLAYER 1</h2>
             <h3 class="scr" id="scr--0">0</h3>
@@ -62,6 +66,7 @@
             <button class="btn" id="btn--roll-dice">ROLL DICE</button>
             <button class="btn" id="btn--hold">HOLD</button>
         </div>
+        <!-- Player 2 side -->
         <section class="player--area active-player" id="player1-area">
             <h2 class="player-name" id="player1-name">PLAYER 2</h2>
             <h3 class="scr" id="scr--1">0</h3>
