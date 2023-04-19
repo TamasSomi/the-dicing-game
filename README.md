@@ -17,6 +17,17 @@ Player1 will start the game. To start, press "Dice". The goal is to collect 100 
 * As a visiting user i would like to play a game that possible to play with a nother person.
 * As a visiting user i would like to read the rules/how to play.
 
+## Target Audiance ##
+
+* People whom interested in online games that they can play with a friend.
+* People whom interested in games that depens on luck but you deside how much to risk.
+
+## Site Owner ##
+
+* As site owner, i want a nice but simle, retro designed game.
+* As site owner, i want the site to be responsive so the target audiance much wider, because the user can play on any device.
+* As site owner, i want the game to be easy to use and have a how to play section, so all the user can find out the rules.
+
 ## Features ##
 
 * The site is responsive and user can play on any device.
@@ -103,4 +114,34 @@ Player1 will start the game. To start, press "Dice". The goal is to collect 100 
 * I click on the new game button and the game reset to the initial state as expected.
 
 
- 
+## Validation ##
+
+* The Css code passes the W3css validator with no error.
+
+* The Html code passes the nu Html Checker with no error.
+
+* The javaScript code passes the jsHint checker with no error.
+
+* Lighthouse test:
+![Lighthouse test result screenshot](docs/ligthouse-test.png "Lighthouse test result screenshot")
+
+## Deployment ##
+
+This website was published using GitHub Pages, by following these steps:
+
+1. Log in to GitHub.
+2. Select the repository of the project.
+3. Click on the setting button in the navigation bar.
+4. On the left side under the Code and Automation title click on the Pages button.
+5. In the Build and Deployment section you'll nedd to select in Source dropdown menu: Deploy from Branch. And in Branch dropdown menu: main and then root and click on Save button.
+6. After a few minutes the link will appear on the top of that page.
+
+## Credits ## 
+
+* Images for the dices: [flaticon](https://www.flaticon.com/)
+
+* I used for the retro style 'Press Start 2P' and sans-serif for fall back fonts from: [Google Fonts](https://fonts.google.com/?query=press+start+2p)
+
+* The Love Maths project by Code Institute helped me a lot.
+
+* The idea for the game comes from a course on [Udemy](https://www.udemy.com/) from Jonas  Schmedtmann [The Complete JavaScript Course](https://www.udemy.com/course/the-complete-javascript-course/) 
