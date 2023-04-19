@@ -148,6 +148,7 @@ p {
     border-radius: 5px;
 }
 
+/* Code for how to play modal */
 .modal{
     display: flex;
     flex-direction: column;

@@ -17,7 +17,11 @@ let player2Name = document.querySelector('#player1-name');
 
 let currentPoints = 0;
 let overAllPoints = [0, 0];
+
+// To check if the players haven't finished the game yet
 let isPlaying = true;
+
+// To check who is playing the current round
 let activePlayer = 0;
 
 // open rules with how to play button
@@ -70,6 +74,7 @@ function switchPlayer() {
     activePlayer = activePlayer === 0 ? 1 : 0;
 }
 
+// hold button functionality
 hold.addEventListener('click', function() {
     if (isPlaying) {
         overAllPoints[`${activePlayer}`] += currentPoints;
@@ -83,6 +88,7 @@ hold.addEventListener('click', function() {
         }
 }});
 
+// If cliked on Player 1 name
 function askForUserName1 () {
     document.querySelector('#change-name1-modal').classList.remove("hide-visibility");
     document.querySelector('#change-name1-modal form').addEventListener('submit', function(event){
@@ -93,6 +99,7 @@ function askForUserName1 () {
     });
 }
 
+// If cliked on Player 2 name
 function askForUserName2 () {
     document.querySelector('#change-name2-modal').classList.remove("hide-visibility");
     document.querySelector('#change-name2-modal form').addEventListener('submit', function(event){
