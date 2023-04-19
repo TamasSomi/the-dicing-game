@@ -90,8 +90,8 @@ function askForUserName1 () {
         let name1 = document.querySelector('#username1').value;
         player1Name.textContent = name1;
         document.querySelector('#change-name1-modal').classList.add("hide-visibility");
-    })
-};
+    });
+}
 
 function askForUserName2 () {
     document.querySelector('#change-name2-modal').classList.remove("hide-visibility");
@@ -100,8 +100,8 @@ function askForUserName2 () {
         let name2 = document.querySelector('#username2').value;
         player2Name.textContent = name2;
         document.querySelector('#change-name2-modal').classList.add("hide-visibility");
-    })
-};
+    });
+}
 
 player1Name.addEventListener('click', askForUserName1);
 
