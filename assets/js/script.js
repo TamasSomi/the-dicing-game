@@ -110,12 +110,10 @@ function askForUserName2 () {
     });
 }
 
-player1Name.addEventListener('click', askForUserName1);
-
-player2Name.addEventListener('click', askForUserName2);
-
-newGame.addEventListener('click', setStarter);
-
-document.addEventListener("DOMContentLoaded", setStarter());
-
-rollDice.addEventListener('click', rollTheDice);
+// Call the functions when the document is loaded
+document.addEventListener("DOMContentLoaded",
+ setStarter(),
+ player1Name.addEventListener('click', askForUserName1),
+ player2Name.addEventListener('click', askForUserName2),
+ newGame.addEventListener('click', setStarter),
+ rollDice.addEventListener('click', rollTheDice));
