@@ -73,6 +73,11 @@ Player1 will start the game. To start, press "Dice". The goal is to collect 100 
 
 ![mobile wireframe](docs/dicing-game-mobile.png "mobile wireframe")
 
+## Bugs ##
+
+* On mobile sceens the navigation is overlaying the half of the usernames, so when user clicks on the name to change it, the new game button is cliked.
+
+Solution: I gave a width of fit-content for the navigation.
 
 ## Testing ##
 
@@ -135,6 +140,23 @@ This website was published using GitHub Pages, by following these steps:
 4. On the left side under the Code and Automation title click on the Pages button.
 5. In the Build and Deployment section you'll nedd to select in Source dropdown menu: Deploy from Branch. And in Branch dropdown menu: main and then root and click on Save button.
 6. After a few minutes the link will appear on the top of that page.
+
+Follow the next steps to open the project on GitPod:
+
+1. Log in to GitHub.
+2. Select the [repository](https://github.com/TamasSomi/the-dicing-game) of the project.
+3. Click on GitPod button.
+4. Click on New Workspace.
+
+## Technology ##
+
+Used technologies during development:
+
+* HTML
+* CSS
+* JavaScript
+* GitPod
+* GitHub
 
 ## Credits ## 
 
